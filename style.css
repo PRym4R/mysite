@@ -144,6 +144,28 @@ body {
     transition: var(--transition);
 }
 
+/* Language Selector */
+.lang-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 20px;
+}
+
+.lang-selector:hover {
+    border-color: var(--accent-primary);
+    background: rgba(124, 58, 237, 0.1);
+}
+
 /* Hero */
 .hero {
     min-height: 100vh;
@@ -434,6 +456,10 @@ body {
 
     .nav-toggle {
         display: flex;
+    }
+
+    .lang-selector {
+        display: none;
     }
 
     .about-grid {
