@@ -23,7 +23,8 @@ const translations = {
             discord: 'Discord',
             instagram: 'Instagram',
             youtube: 'YouTube'
-        }
+        },
+        footer: 'ПтН ПнХ'
     },
     ua: {
         nav: {
@@ -48,7 +49,8 @@ const translations = {
             discord: 'Discord',
             instagram: 'Instagram',
             youtube: 'YouTube'
-        }
+        },
+        footer: 'ПтН ПнХ'
     },
     en: {
         nav: {
@@ -73,7 +75,8 @@ const translations = {
             discord: 'Discord',
             instagram: 'Instagram',
             youtube: 'YouTube'
-        }
+        },
+        footer: 'PTN PNKh'
     }
 };
 
